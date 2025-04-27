@@ -28,7 +28,20 @@ The program allows users to explore relationships between games through a comman
 
 ---
 
-## Project Structure
+## 📂 Data Download
+
+> ⚠️ **Note:** The dataset is not included in this repository due to GitHub's file size limitations.  
+> Please download it directly from Kaggle using the link below.
+
+This project uses the publicly available **Game Recommendations on Steam** dataset from Kaggle:
+
+[Game Recommendations on Steam Dataset](https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam)
+
+### Instructions:
+1. Download the dataset ZIP file from Kaggle.
+2. Extract the contents into a folder named `data` at the root of this project.
+
+Your folder structure should look like this:
 
 ```bash
 steam_game_network_project/
@@ -42,7 +55,7 @@ steam_game_network_project/
 └── requirements.txt
 ```
 
-> ⚠️ **Note:** The program processes a limited number of users (`max_users = 100,000`) for efficiency. Only games present in the recommendation data will appear in the network.
+> ⚠️ **Note:** The program processes a limited number of users (`max_users = 1,000,000`) for efficiency. Only games present in the recommendation data will appear in the network.
 
 ---
 
