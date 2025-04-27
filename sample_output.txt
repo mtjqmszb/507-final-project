@@ -1,0 +1,81 @@
+Building game similarity graph...
+Graph built with 203 nodes and 4979 edges.
+
+--- Steam Game Network ---
+1. Recommend similar games
+2. Find shortest path between two games
+3. Find most influential games
+4. Search for Game ID by Name
+5. Exit
+Choose an option: 4
+Enter part of the game name to search: elden
+
+🔍 Search Results:
+========================================
+- ELDEN RING (ID: 1245620)
+- Elden: Path of the Forgotten (ID: 715020)
+- Elden Gunfire 2 (ID: 2059760)
+- theHunter Call of the Wild™ - Hirschfelden Veteran Cosmetic Pack (ID: 2198874)
+========================================
+
+--- Steam Game Network ---
+1. Recommend similar games
+2. Find shortest path between two games
+3. Find most influential games
+4. Search for Game ID by Name
+5. Exit
+Choose an option: 1
+Sample Game IDs in network: [686810, 431960, 526870, 374320, 1245620, 518790, 244210, 1172620, 250900, 386360]
+Enter Game ID: 1245620
+
+==================================================
+🎮 Top 5 Similar Games to: 'ELDEN RING'
+==================================================
+1. Divinity: Original Sin 2 - Definitive Edition | Shared Users: 10
+2. DARK SOULS™ III                | Shared Users: 9
+3. Cyberpunk 2077                 | Shared Users: 8
+4. Call of Duty®                  | Shared Users: 8
+5. The Witcher® 3: Wild Hunt      | Shared Users: 7
+==================================================
+
+--- Steam Game Network ---
+1. Recommend similar games
+2. Find shortest path between two games
+3. Find most influential games
+4. Search for Game ID by Name
+5. Exit
+Choose an option: 2
+Source Game ID: 1245620
+Target Game ID: 239030
+
+🔗 Shortest Path Between Games:
+========================================
+1. ELDEN RING (ID: 1245620)
+2. BeamNG.drive (ID: 284160)
+3. Papers Please (ID: 239030)
+========================================
+
+--- Steam Game Network ---
+1. Recommend similar games
+2. Find shortest path between two games
+3. Find most influential games
+4. Search for Game ID by Name
+5. Exit
+Choose an option: 3
+
+⭐ Top Influential Games (by PageRank):
+==================================================
+1. Wallpaper Engine               | Score: 0.0226
+2. No Man's Sky                   | Score: 0.0220
+3. Red Dead Redemption 2          | Score: 0.0209
+4. Fallout 4                      | Score: 0.0204
+5. Rust                           | Score: 0.0196
+==================================================
+
+--- Steam Game Network ---
+1. Recommend similar games
+2. Find shortest path between two games
+3. Find most influential games
+4. Search for Game ID by Name
+5. Exit
+Choose an option: 5
