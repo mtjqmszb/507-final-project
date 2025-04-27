@@ -30,6 +30,7 @@ The program allows users to explore relationships between games through a comman
 
 ## Project Structure
 
+```bash
 steam_game_network_project/
 ├── data/
 │ ├── recommendations.csv
@@ -39,6 +40,7 @@ steam_game_network_project/
 ├── graph_builder.py
 ├── README.md
 └── requirements.txt
+```
 
 > ⚠️ **Note:** The program processes a limited number of users (`max_users = 100,000`) for efficiency. Only games present in the recommendation data will appear in the network.
 
